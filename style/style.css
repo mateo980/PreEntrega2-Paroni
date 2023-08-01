@@ -1,0 +1,139 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    margin-left: 38%;
+    display: flex;
+    background-color: none;
+}
+
+.menu li a {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.menu li a{
+    color: beige;
+}
+
+.menu {
+    display: flex;
+    margin-top: 80px;
+    list-style-type: none;
+    font-size: 15px;
+    background-color: none;
+}
+
+header{
+    display: flex;
+}
+
+H4 {
+    color: rgb(231, 17, 17);
+    font: bold;
+    font-style: italic;
+    margin-left: 44%;
+    background-color: none;
+}
+
+
+
+.col--bgd-color {
+    background-color: black;
+}
+
+.FONDO{
+    background-image: url("../img/FONDOPTA.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+body{
+    background-color: blue;
+}
+
+.PIE {
+    background-color: blue;
+    color: white;
+    padding-block: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.CHECA{
+    color: white;
+    background-color: red;
+    display: inline-flex;
+    margin-left: 10%;
+
+}
+
+.USA{
+    color: white;
+    background-color: black;
+    display: inline-flex;
+    margin-left: 60%;
+}
+
+.presentacion{
+    color: aliceblue;
+    text-align: center;
+    font-size: 22px;
+}
+
+.GRACIAS{
+    color: aliceblue;
+    text-align: center;
+}
+.formulario{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.formulario2{
+    color: aliceblue;
+    font-size: 22px;
+}
+
+.boton{
+    font-size: 22px;
+}
+
+
+.ACADEMIA{
+    display: flex;
+    justify-content: space-around;
+    height: 235px;
+    
+    
+}
+
+@media screen and (max-width: 480px) {
+    h1{
+        text-align: center;
+        padding-inline: 2rem;
+        margin-inline: 3%;
+    }
+    h4{
+        text-align: center;
+        margin-inline: 3%;
+    }
+    .menu{
+        text-align:left;
+        flex-direction: column;
+        
+    }
+
+    
+}
