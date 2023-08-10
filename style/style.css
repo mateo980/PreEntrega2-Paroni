@@ -205,14 +205,14 @@ h4 {
         margin-inline: 3%;
     }
     .menu{
-        text-align:left;
+        align-items: end;
         flex-direction: column;
         color: #1c1c1c;
         
     }
     
     .abrir-menu,
-     .cerrar-menu{
+    .cerrar-menu{
         display: block;
         border: 0;
         font-size: 1.25rem;
@@ -233,7 +233,7 @@ h4 {
     } 
 
     .nav{
-        opacity: 0;
+        opacity: 1;
         visibility: hidden;
         display: flex;
         flex-direction: column;
@@ -242,17 +242,13 @@ h4 {
         position: absolute;
         top: 0;
         right: 0;
-        background-color: black;
+        background-color: #1c1c1c;
         bottom: 0;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
 
     }
 
-    .menu{
-        flex-direction: column;
-        align-items: end;
-    }
     
     .nav.visible{
         opacity: 1;
@@ -260,7 +256,9 @@ h4 {
     }
     
 
-    
+    .menu li a {
+        color: #cecece;
+    }
 
     
 
