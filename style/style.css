@@ -234,7 +234,7 @@ h4 {
 
     .nav{
         opacity: 1;
-        visibility: visible;
+        visibility: hidden;
         display: flex;
         flex-direction: column;
         align-items: end;
