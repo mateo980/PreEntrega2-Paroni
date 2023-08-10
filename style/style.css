@@ -21,6 +21,9 @@ h1 {
     margin-left: 100px;
 }
 
+.titulos{
+    background-color: blue;
+}
 .menu li a{
     display: flex;
     color: black;
@@ -37,6 +40,8 @@ h1 {
 
 header{
     display: flex;
+    background-color: blue;
+    justify-content: center;
 }
 
 h4 {
@@ -47,7 +52,9 @@ h4 {
     background-color: blue;
 }
 
-
+.abrir-menu{
+    display: none;
+}
 
 .col--bgd-color {
     background-color: red;
@@ -103,6 +110,7 @@ h4 {
 .formulario{
     color: aliceblue;
     font-size: 22px;
+    
 }
 
 .formulario2{
@@ -123,13 +131,53 @@ h4 {
     
 }
 
+.abrir-menu,
+.cerrar-menu{
+    display: none;
+
+}
+
 @media screen and (max-width:768px) {
+     .abrir-menu,
+     .cerrar-menu{
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
     
     }
+
+    .abrir-menu{
+        color: #1c1c1c
+    }
+    .cerrar-menu{
+        color: #cecece;
+    }
+
+    .nav{
+        display: none;
+    } 
+
+    .nav{
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: black;
+        bottom: 0;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+
+    }
+
+}
+
     
-
-
-
 
 @media screen and (max-width: 480px) {
     h1{
@@ -146,8 +194,16 @@ h4 {
         flex-direction: column;
         
     }
+    
+    
 
     
+
+    
+
+    
+
+
 }
 
 
