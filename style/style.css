@@ -152,7 +152,7 @@ h4 {
     }
 
     .abrir-menu{
-        color: #1c1c1c
+        color: #1c1c1c;
     }
     .cerrar-menu{
         color: #cecece;
@@ -222,7 +222,7 @@ h4 {
     }
 
     .abrir-menu{
-        color: #1c1c1c
+        color: #1c1c1c;
     }
     .cerrar-menu{
         color: #cecece;
@@ -233,7 +233,7 @@ h4 {
     } 
 
     .nav{
-        opacity: 1;
+        opacity: 0;
         visibility: hidden;
         display: flex;
         flex-direction: column;
