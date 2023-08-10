@@ -203,6 +203,7 @@ h4 {
     .menu{
         text-align:left;
         flex-direction: column;
+        color: #1c1c1c;
         
     }
     
