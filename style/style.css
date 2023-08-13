@@ -130,19 +130,27 @@ h4 {
     
     
 }
+.container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    
+  }
 
-.cerrar-menu{
-    opacity: 0;;
+.abrir-menu{
+    opacity: 0;
 }
 
+.cerrar-menu{
+    opacity: 0;
+}
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) { 
     .body{
-        background-color: blue;
+        background-color: #1c1c1c;
     } 
     
     .abrir-menu,
-     .cerrar-menu{
+    .cerrar-menu{
         display: block;
         border: 0;
         font-size: 1.25rem;
@@ -152,10 +160,10 @@ h4 {
     }
 
     .abrir-menu{
-        color: #1c1c1c;
+        color: white;
     }
     .cerrar-menu{
-        color: #cecece;
+        color: white;
     }
 
     .nav{
@@ -164,7 +172,7 @@ h4 {
 
     .nav{
         opacity: 1;
-        visibility: visible;
+        visibility: hidden;
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -175,26 +183,26 @@ h4 {
         background-color: black;
         bottom: 0;
         padding: 2rem;
-        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        box-shadow: 0 0 0 100vmax rgba(26, 18, 18, 0.5);
 
     }
 
     .menu{
         flex-direction: column;
         align-items: end;
-    }
+        opacity: 1;
+        visibility: visible;
+         }
+
     
     .nav.visible{
         opacity: 1;
         visibility: visible;
     }
-    
 
 }
 
-    
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
     h1{
         text-align: center;
         padding-inline: 2rem;
@@ -204,11 +212,11 @@ h4 {
         text-align: center;
         margin-inline: 3%;
     }
+ 
     .menu{
         align-items: end;
         flex-direction: column;
         color: #1c1c1c;
-        
     }
     
     .abrir-menu,
@@ -233,8 +241,8 @@ h4 {
     } 
 
     .nav{
-        opacity: 0;
-        visibility: hidden;
+        opacity: 1;
+        visibility:visible;
         display: flex;
         flex-direction: column;
         align-items: end;
@@ -242,7 +250,7 @@ h4 {
         position: absolute;
         top: 0;
         right: 0;
-        background-color: #1c1c1c;
+        background-color: grey;
         bottom: 0;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
@@ -255,16 +263,5 @@ h4 {
         visibility: visible;
     }
     
-
-    .menu li a {
-        color: #cecece;
-    }
-
-    
-
-    
-
-
-}
-
+ }
 
